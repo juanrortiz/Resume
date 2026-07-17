@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1780252499.19002 "/home/juanrortiz/Code/Resume/main.tex" "main.pdf" "main" 1780252499.52243 0
-  "/home/juanrortiz/Code/Resume/main.tex" 1780252498.96556 8464 195d0e14f6ba4739eacba51b71ac76d1 ""
+["pdflatex"] 1784296126.33739 "/home/juanrortiz/Code/Resume/main.tex" "main.pdf" "main" 1784296126.67155 0
+  "/home/juanrortiz/Code/Resume/main.tex" 1784296126.15691 9294 1aee805f3e301384cf737e373960f34c ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1775415801 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1775415801 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1775415801 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -77,11 +77,11 @@
   "/usr/share/texmf-dist/tex/latex/tools/verbatim.sty" 1775415801 7532 26d26e9d8f2ca784270d5da8ec7d102b ""
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1775415801 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1775415801 43569 fd570f2fa160877d211e859f687312ba ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1779312390 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1779312323 3084557 974d33d9f2d0f4db5e8ea683a34981d0 ""
-  "main.aux" 1780252499.48056 806 06dbfebdf88ee9c096d2bcc0df9fa62f "pdflatex"
-  "main.out" 1780252499.48156 571 7ed5b741acbcfa1e4d51a190e8c54e02 "pdflatex"
-  "main.tex" 1780252498.96556 8464 195d0e14f6ba4739eacba51b71ac76d1 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1780254359 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1780254285 3084555 d699860c8c03fa60147d01e710cb1f65 ""
+  "main.aux" 1784296126.63172 806 06dbfebdf88ee9c096d2bcc0df9fa62f "pdflatex"
+  "main.out" 1784296126.63172 571 7ed5b741acbcfa1e4d51a190e8c54e02 "pdflatex"
+  "main.tex" 1784296126.15691 9294 1aee805f3e301384cf737e373960f34c ""
   (generated)
   "main.aux"
   "main.log"
