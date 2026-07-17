@@ -15,5 +15,5 @@ Electrical engineer with 4+ years of industrial automation experience transition
 ## Contact
 
 - Email: juanrortiz@proton.me
-- GitHub: [juanrortizx](https://github.com/juanrortizx)
+- GitHub: [juanrortizx](https://github.com/juanrortiz)
 - LinkedIn: [juanrortiz](https://www.linkedin.com/in/juanrortiz)
