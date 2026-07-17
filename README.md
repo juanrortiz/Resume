@@ -10,7 +10,7 @@ Electrical engineer with 4+ years of industrial automation experience transition
 ## Built With
 
 - LaTeX
-- [Juan R. Ortiz Resume Template](https://github.com/juanrortizx/resume-template)
+- [Juan R. Ortiz Resume Template](https://github.com/juanrortiz/resume-template)
 
 ## Contact
 
