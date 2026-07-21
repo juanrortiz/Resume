@@ -99,8 +99,38 @@
 %----------SUMMARY-----------------
 \vspace{0pt}
 \section{Summary}
-\small{Electrical engineer with 4+ years of industrial automation experience transitioning into embedded systems and IoT software engineering. Hands-on experience in C/C++ systems programming, hardware integration, and serial communications. Pursuing an M.S. in Electrical Engineering specializing in Embedded Systems at Cal Poly Pomona.}
+\small{Electrical engineer with 5+ years of industrial automation experience transitioning into embedded systems and IoT software engineering. Hands-on experience in C/C++ systems programming, hardware integration, and serial communications. Pursuing an M.S. in Electrical Engineering specializing in Embedded Systems at Cal Poly Pomona.}
 \normalsize
+
+%-----------SKILLS-----------------
+\vspace{2pt}
+\section{Skills Summary}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}l}
+  \textbf{Languages:} & C, C++, Python, PowerShell, Rust, LaTeX \\[2pt]
+  \textbf{Embedded \& Systems:} & Serial Protocols (UART/SPI/I2C), Win32 API, Memory Optimization, GCC/g++, Cargo \\[2pt]
+  \textbf{Dev Environment:} & Linux CLI, Git, QEMU/KVM, SSH, Helix, Zellij, VS Code \\[2pt]
+  \textbf{Hardware \& Test:} & Oscilloscopes, DMM, Electrical Soldering and Wire Troubleshooting \\[2pt]
+  \textbf{Industry Tools:} & Logix Designer SDK, ControlFlash+ API, Studio 5000 \\[2pt]
+  \textbf{Soft Skills:} & Leadership, Project Management, Technical Documentation, Team Collaboration \\ 
+\end{tabular*}
+
+%-----------PROJECTS-----------------
+\vspace{2pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{\href{https://github.com/juanrortiz/EMG-Controlled-Prosthetic}{EMG-Controlled Prosthetic Hand}}{Developed embedded control software on a Teensy 4.1 to drive a robotic prosthetic hand using electromyography signals. Implemented a second-order Chebyshev filter in C for noise reduction, and designed a matrix-based finger position controller with per-finger state tracking. Collaborated on hardware signal conditioning circuit for EMG capture. Tech: C, Teensy 4.1, Arduino IDE, Signal Processing, EMG Sensing}
+\vspace{2pt}
+\resumeSubItem{\href{https://github.com/juanrortiz/CyberDeck}{RP2040 Cyberdeck Controller}}{Built a portable USB HID controller on a Pro Micro RP2040 integrating an M5Stack CardKB over I2C, analog joystick mouse control, and programmable macro buttons. Developed firmware in C++ using PlatformIO and the Arduino framework. Designed custom PCB schematic in KiCad and ordered fabricated prototype boards. Tech: C++, RP2040, USB HID, I2C, KiCad, PlatformIO, VS Code}\vspace{2pt}
+\vspace{2pt}
+\resumeSubItem{\href{https://github.com/juanrortiz/Logix-Firmware-Manager}{Automated PLC Firmware Upgrade Tool}}{Built a Python/C\# tool interfacing with the ControlFlash+ API and Logix Designer SDK to automate firmware flashing and disaster recovery across multiple PLC controllers, reducing process time by 70\%. Tech: Python, C\#, Logix Designer SDK, ControlFlash+ API}
+\vspace{2pt}
+\resumeSubItem{TCP Industrial Logging Tool}{Built a Python CLI tool that connects via TCP to Linux-based industrial control servers, querying and logging system and controls data by target IP. Tech: Python, TCP/IP, Sockets, PowerShell, Linux}
+\vspace{2pt}
+\resumeSubItem{Minimal OS Memory Optimization}{Reduced a Windows 11 VM to 806MB idle RAM on QEMU/KVM by auditing and disabling kernel services, implementing process lifecycle management via native Win32 API and Rust utilities. Tech: C++, Rust, Win32 API, PowerShell, QEMU/KVM}
+\vspace{2pt}
+\resumeSubItem{Image Segmentation via DCT Feature Extraction}{Implemented a Bayesian MAP classifier in MATLAB to segment foreground and background in images using 8x8 block DCT features, zig-zag scanning, and class-conditional probability estimation. Tech: MATLAB, Signal Processing, Statistical Classification}
+\resumeSubHeadingListEnd
+\vspace{-2pt}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -121,11 +151,11 @@
       \resumeItem{Sensor Integration}{Integrated jam detection sensors into conveyor systems by wiring directly to existing I/O modules, achieving real-time fault detection without modifying PLC logic.}
     \resumeItemListEnd
         
-    \resumeRoleSubheading
-      {Control Room PT Supervisor (Promoted Internally)}{July 2021 - October 2021}
-    \resumeItemListStart
-      \resumeItem{Operations Support}{Monitored HMIs to identify fault trends and facilitated troubleshooting between operations, mechanics, and technicians.}
-    \resumeItemListEnd
+    % \resumeRoleSubheading
+    %   {Control Room PT Supervisor (Promoted Internally)}{July 2021 - October 2021}
+    % \resumeItemListStart
+    %   \resumeItem{Operations Support}{Monitored HMIs to identify fault trends and facilitated troubleshooting between operations, mechanics, and technicians.}
+    % \resumeItemListEnd
 
     % \resumeRoleSubheading
     %   {Operations Hub PT Lead (Promoted Internally)}{July 2020 - July 2021}
@@ -134,37 +164,8 @@
     % \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\vspace{0pt}
-\section{Projects}
-\resumeSubHeadingListStart
-\resumeSubItem{EMG-Controlled Prosthetic Hand}{Developed embedded control software on a Teensy 4.1 to drive a robotic prosthetic hand using electromyography signals. Implemented a second-order Chebyshev filter in C for noise reduction, and designed a matrix-based finger position controller with per-finger state tracking. Collaborated on hardware signal conditioning circuit for EMG capture. Tech: C, Teensy 4.1, Arduino IDE, Signal Processing, EMG Sensing}
-\vspace{2pt}
-\resumeSubItem{RP2040 Cyberdeck Controller}{Built a portable USB HID controller on a SparkFun Pro Micro RP2040 integrating an M5Stack CardKB over I2C, analog joystick mouse control, and programmable macro buttons. Developed firmware in C++ using PlatformIO with the Arduino framework. Tech: C++, RP2040, USB HID, I2C, PlatformIO}
-\vspace{2pt}
-\resumeSubItem{Automated PLC Firmware Upgrade Tool}{Built a Python/C\# tool interfacing with the ControlFlash+ API and Logix Designer SDK to automate firmware flashing and disaster recovery across multiple PLC controllers, reducing process time by 70\%. Tech: Python, C\#, Logix Designer SDK, ControlFlash+ API}
-\vspace{2pt}
-\resumeSubItem{TCP Industrial Logging Tool}{Built a Python CLI tool that connects via TCP to Linux-based industrial control servers, querying and logging system and controls data by target IP. Tech: Python, TCP/IP, Sockets, PowerShell, Linux}
-\vspace{2pt}
-\resumeSubItem{Minimal OS Memory Optimization}{Reduced a Windows 11 VM to 816MB idle RAM on QEMU/KVM by auditing and disabling kernel services, implementing process lifecycle management via native Win32 API and Rust utilities. Tech: C++, Rust, Win32 API, PowerShell, QEMU/KVM}
-%\vspace{2pt}
-%\resumeSubItem{Image Segmentation via DCT Feature Extraction}{Implemented a Bayesian MAP classifier in MATLAB to segment foreground and background in images using 8x8 block DCT features, zig-zag scanning, and class-conditional probability estimation. Tech: MATLAB, Signal Processing, Statistical Classification}
-\resumeSubHeadingListEnd
-
-%-----------SKILLS-----------------
-\vspace{0pt}
-\section{Skills Summary}
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}l}
-  \textbf{Languages:} & C, C++, Python, PowerShell, Rust, LaTeX \\[2pt]
-  \textbf{Embedded \& Systems:} & Serial Protocols (UART/SPI/I2C), Win32 API, Memory Optimization, GCC/g++, Cargo \\[2pt]
-  \textbf{Dev Environment:} & Linux CLI, Git, QEMU/KVM, SSH, Helix, Zellij, VS Code \\[2pt]
-  \textbf{Hardware \& Test:} & Oscilloscopes, DMM, Electrical Soldering and Wire Troubleshooting \\[2pt]
-  \textbf{Industry Tools:} & Logix Designer SDK, ControlFlash+ API, Studio 5000 \\[2pt]
-  \textbf{Soft Skills:} & Leadership, Project Management, Technical Documentation, Team Collaboration \\ 
-\end{tabular*}
-
 %-----------EDUCATION-----------------
-\vspace{0pt}
+\vspace{-4pt}
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
